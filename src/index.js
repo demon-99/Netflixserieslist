@@ -1,17 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Card from './Card';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+<>
+<Card imgsrc="https://wallpapercave.com/wp/wp4056410.jpg" title="A netflix original series" sname="Dark" />
+<Card imgsrc="https://ftw.usatoday.com/wp-content/uploads/sites/90/2019/04/friends-week.jpg" title="A netflix original series" sname="Friends" />
+<Card imgsrc="https://sm.mashable.com/t/mashable_in/photo/default/never-have-i-ever-review-mindy-kalings-netflix-teen-comedy-g_53wh.960.jpg" title="A netflix original series" sname="Never have i ever" />
+</>,
+document.getElementById('root'));
